@@ -1,0 +1,96 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.Box {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+}
+
+.Box-Container {
+    width: 400px;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    width: 85%;
+    padding: 10px 40px 10px 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    font-size: 14px;
+}
+
+.search-icon {
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: black;
+    font-size: 16px;
+}
+
+.chat-conatainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.chat {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.chat-left {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+}
+
+.chatname h4 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.chatname p {
+    font-size: 14px;
+    margin: 2px 0 0;
+    color: #555;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    max-width: 180px;
+}
+
+.chat-right {
+    text-align: right;
+}
+
+.chat-right .time {
+    font-size: 12px;
+    color: black;
+    display: block;
+}
+
+.chat-right .star {
+    color: green;
+    font-size: 16px;
+    margin-top: 8px;
+}
